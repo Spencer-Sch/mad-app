@@ -31,7 +31,7 @@ export default function AppSidebar({ name }: { name: string }) {
 		<Sidebar name={name} collapsible="icon">
 			<SidebarHeader>
 				<Image
-					src="/images/mad-icon-big.jpg"
+					src="/images/mad-logo.png"
 					width={50}
 					height={50}
 					alt="logo"
