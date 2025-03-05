@@ -15,7 +15,10 @@ export default function CoursePageLayout({
 }) {
 	const { appSidebar, courseSidebar } = SIDEBAR_NAMES
 	return (
-		<SidebarProvider sidebarNames={[appSidebar, courseSidebar]}>
+		<SidebarProvider
+			defaultOpen={[]}
+			sidebarNames={[appSidebar, courseSidebar]}
+		>
 			{/* <CourseHeader /> */}
 			<AppSidebar name={appSidebar} />
 			<CourseSidebar name={courseSidebar} />
