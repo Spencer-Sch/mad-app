@@ -8,9 +8,9 @@ export default function DashboardPageLayout({
 }: {
 	children: ReactNode
 }) {
-	const { appSidebar, courseSidebar } = SIDEBAR_NAMES
+	const { appSidebar } = SIDEBAR_NAMES
 	return (
-		<SidebarProvider sidebarNames={[appSidebar, courseSidebar]}>
+		<SidebarProvider defaultOpen={[]} sidebarNames={[appSidebar]}>
 			{/* <DashboardHeader /> */}
 			<AppSidebar name={appSidebar} />
 			{/* dashboard page content wrapper div */}
