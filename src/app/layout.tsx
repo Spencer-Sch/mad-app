@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
+import { metaDescription, metaTitle } from '@/lib/meta'
 
 const geistSans = localFont({
 	src: './fonts/GeistVF.woff',
@@ -14,8 +15,8 @@ const geistMono = localFont({
 })
 
 export const metadata: Metadata = {
-	title: 'MaD App',
-	description: 'Making you a better drummer',
+	title: metaTitle,
+	description: metaDescription,
 }
 
 export default function RootLayout({
