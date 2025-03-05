@@ -1,0 +1,24 @@
+import { ReactNode } from 'react'
+import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
+import AppSidebar from '@/components/AppSidebar'
+import { SIDEBAR_NAMES } from '@/lib/constants'
+
+export default function DashboardPageLayout({
+	children,
+}: {
+	children: ReactNode
+}) {
+	const { appSidebar, courseSidebar } = SIDEBAR_NAMES
+	return (
+		<SidebarProvider sidebarNames={[appSidebar, courseSidebar]}>
+			{/* <DashboardHeader /> */}
+			<AppSidebar name={appSidebar} />
+			{/* dashboard page content wrapper div */}
+			<main>
+				<SidebarTrigger name={appSidebar} />
+				{children}
+			</main>
+			{/* <DashboardFooter /> */}
+		</SidebarProvider>
+	)
+}
