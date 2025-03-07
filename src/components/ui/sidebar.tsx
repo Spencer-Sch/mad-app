@@ -24,6 +24,7 @@ import {
 	TooltipProvider,
 	TooltipTrigger,
 } from '@/components/ui/tooltip'
+import { useDebounce } from '@/hooks/useDebouce'
 
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7
 const SIDEBAR_WIDTH = '16rem'
@@ -202,7 +203,29 @@ const Sidebar = React.forwardRef<
 		},
 		ref
 	) => {
-		const { isMobile, state, openMobile, setOpenMobile } = useSidebar()
+		const { isMobile, state, openMobile, setOpenMobile, setOpen } = useSidebar()
+		const justOpenedRef = React.useRef(false)
+
+		const handleMouseEnter = () => {
+			if (!openOnHover) return
+
+			if (!state.includes(name)) {
+				justOpenedRef.current = true
+				setOpen([name])
+			}
+		}
+
+		const handleMouseLeave = () => {
+			if (!openOnHover) return
+
+			if (justOpenedRef.current || state.includes(name)) {
+				justOpenedRef.current = false
+				setOpen([])
+			}
+		}
+
+		const debouncedHandleMouseEnter = useDebounce(handleMouseEnter, 100)
+		const debouncedHandleMouseLeave = useDebounce(handleMouseLeave, 100)
 
 		if (collapsible === 'none') {
 			return (
@@ -255,6 +278,8 @@ const Sidebar = React.forwardRef<
 				data-collapsible={state.includes(name) ? '' : collapsible}
 				data-variant={variant}
 				data-side={side}
+				onMouseEnter={debouncedHandleMouseEnter}
+				onMouseLeave={debouncedHandleMouseLeave}
 			>
 				{/* This is what handles the sidebar gap on desktop */}
 				<div
