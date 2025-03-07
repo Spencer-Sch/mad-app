@@ -2,7 +2,7 @@ import { ReactNode } from 'react'
 import {
 	SidebarInset,
 	SidebarProvider,
-	SidebarTrigger,
+	// SidebarTrigger,
 } from '@/components/ui/sidebar'
 import AppSidebar from '@/components/AppSidebar'
 import CourseSidebar from '@/components/course/CourseSidebar'
@@ -23,7 +23,7 @@ export default function CoursePageLayout({
 			<AppSidebar name={appSidebar} openOnHover={true} />
 			<CourseSidebar name={courseSidebar} />
 			<SidebarInset>
-				<SidebarTrigger name={appSidebar} />
+				{/* <SidebarTrigger name={appSidebar} /> */}
 				{/* course page content wrapper div */}
 				<main>{children}</main>
 			</SidebarInset>

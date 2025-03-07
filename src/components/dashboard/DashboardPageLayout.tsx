@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
+import { SidebarProvider /* SidebarTrigger */ } from '@/components/ui/sidebar'
 import AppSidebar from '@/components/AppSidebar'
 import { SIDEBAR_NAMES } from '@/lib/constants'
 
@@ -15,7 +15,7 @@ export default function DashboardPageLayout({
 			<AppSidebar name={appSidebar} openOnHover={true} />
 			{/* dashboard page content wrapper div */}
 			<main>
-				<SidebarTrigger name={appSidebar} />
+				{/* <SidebarTrigger name={appSidebar} /> */}
 				{children}
 			</main>
 			{/* <DashboardFooter /> */}
