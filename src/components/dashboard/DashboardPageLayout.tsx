@@ -12,7 +12,7 @@ export default function DashboardPageLayout({
 	return (
 		<SidebarProvider defaultOpen={[]} sidebarNames={[appSidebar]}>
 			{/* <DashboardHeader /> */}
-			<AppSidebar name={appSidebar} />
+			<AppSidebar name={appSidebar} openOnHover={true} />
 			{/* dashboard page content wrapper div */}
 			<main>
 				<SidebarTrigger name={appSidebar} />

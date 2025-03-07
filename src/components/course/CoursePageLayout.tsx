@@ -20,7 +20,7 @@ export default function CoursePageLayout({
 			sidebarNames={[appSidebar, courseSidebar]}
 		>
 			{/* <CourseHeader /> */}
-			<AppSidebar name={appSidebar} />
+			<AppSidebar name={appSidebar} openOnHover={true} />
 			<CourseSidebar name={courseSidebar} />
 			<SidebarInset>
 				<SidebarTrigger name={appSidebar} />

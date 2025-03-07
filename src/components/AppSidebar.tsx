@@ -26,7 +26,13 @@ const items = [
 	},
 ]
 
-export default function AppSidebar({ name }: { name: string }) {
+export default function AppSidebar({
+	name,
+	openOnHover,
+}: {
+	name: string
+	openOnHover?: boolean
+}) {
 	return (
 		<Sidebar name={name} collapsible="icon">
 			<SidebarHeader>
