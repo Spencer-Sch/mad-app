@@ -19,14 +19,17 @@ export default function CoursePageLayout({
 			defaultOpen={[]}
 			sidebarNames={[appSidebar, courseSidebar]}
 		>
-			{/* <CourseHeader /> */}
-			<AppSidebar name={appSidebar} openOnHover={true} />
-			<CourseSidebar name={courseSidebar} />
-			<SidebarInset>
-				{/* <SidebarTrigger name={appSidebar} /> */}
-				{/* course page content wrapper div */}
-				<main>{children}</main>
-			</SidebarInset>
+			<div className="w-[--sidebar-width-icon]">
+				<AppSidebar name={appSidebar} openOnHover={true} />
+			</div>
+			<div className="w-full flex">
+				<CourseSidebar name={courseSidebar} />
+				<SidebarInset>
+					{/* <CourseHeader /> */}
+					{/* <SidebarTrigger name={appSidebar} /> */}
+					{children}
+				</SidebarInset>
+			</div>
 		</SidebarProvider>
 	)
 }
