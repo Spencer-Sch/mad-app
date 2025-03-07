@@ -34,7 +34,7 @@ export default function AppSidebar({
 	openOnHover?: boolean
 }) {
 	return (
-		<Sidebar name={name} collapsible="icon">
+		<Sidebar name={name} openOnHover={openOnHover} collapsible="icon">
 			<SidebarHeader>
 				<Image
 					src="/images/mad-logo.png"

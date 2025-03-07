@@ -186,6 +186,7 @@ const Sidebar = React.forwardRef<
 		side?: 'left' | 'right'
 		variant?: 'sidebar' | 'floating' | 'inset'
 		collapsible?: 'offcanvas' | 'icon' | 'none'
+		openOnHover?: boolean
 	}
 >(
 	(
@@ -194,6 +195,7 @@ const Sidebar = React.forwardRef<
 			side = 'left',
 			variant = 'sidebar',
 			collapsible = 'offcanvas',
+			openOnHover = false,
 			className,
 			children,
 			...props
