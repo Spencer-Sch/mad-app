@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
 import { SidebarProvider } from '@/components/ui/sidebar'
 import AppSidebar from '@/components/AppSidebar'
-import { SIDEBAR_NAMES } from '@/lib/constants'
+import { sidebarNames } from '@/lib/constants'
 import BaseLayout from '../layout/BaseLayout'
 import DashboardHeader from './DashboardHeader'
 
@@ -10,7 +10,7 @@ export default function DashboardPageLayout({
 }: {
 	children: ReactNode
 }) {
-	const { appSidebar } = SIDEBAR_NAMES
+	const { appSidebar } = sidebarNames
 	return (
 		<SidebarProvider defaultOpen={[]} sidebarNames={[appSidebar]}>
 			<div className="w-[--sidebar-width-icon] shrink-0">

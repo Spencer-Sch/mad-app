@@ -2,7 +2,7 @@ import { ReactNode } from 'react'
 import { SidebarProvider } from '@/components/ui/sidebar'
 import AppSidebar from '@/components/AppSidebar'
 import CourseSidebar from '@/components/course/CourseSidebar'
-import { SIDEBAR_NAMES } from '@/lib/constants'
+import { sidebarNames } from '@/lib/constants'
 import BaseLayout from '../layout/BaseLayout'
 import CourseHeader from './CourseHeader'
 
@@ -11,7 +11,7 @@ export default function CoursePageLayout({
 }: {
 	children: ReactNode
 }) {
-	const { appSidebar, courseSidebar } = SIDEBAR_NAMES
+	const { appSidebar, courseSidebar } = sidebarNames
 	return (
 		<SidebarProvider
 			defaultOpen={[]}
