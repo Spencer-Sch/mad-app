@@ -1,10 +1,9 @@
 import { ReactNode } from 'react'
-import {
-	SidebarInset,
-	SidebarProvider /* SidebarTrigger */,
-} from '@/components/ui/sidebar'
+import { SidebarProvider } from '@/components/ui/sidebar'
 import AppSidebar from '@/components/AppSidebar'
 import { SIDEBAR_NAMES } from '@/lib/constants'
+import BaseLayout from '../layout/BaseLayout'
+import DashboardHeader from './DashboardHeader'
 
 export default function DashboardPageLayout({
 	children,
@@ -14,15 +13,12 @@ export default function DashboardPageLayout({
 	const { appSidebar } = SIDEBAR_NAMES
 	return (
 		<SidebarProvider defaultOpen={[]} sidebarNames={[appSidebar]}>
-			<div className="w-[--sidebar-width-icon]">
+			<div className="w-[--sidebar-width-icon] shrink-0">
 				<AppSidebar name={appSidebar} openOnHover={true} />
 			</div>
-			<SidebarInset>
-				{/* <DashboardHeader /> */}
-				{/* <SidebarTrigger name={appSidebar} /> */}
-				{children}
-				{/* <DashboardFooter /> */}
-			</SidebarInset>
+			<div className="flex-grow">
+				<BaseLayout header={<DashboardHeader />}>{children}</BaseLayout>
+			</div>
 		</SidebarProvider>
 	)
 }
