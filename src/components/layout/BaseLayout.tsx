@@ -10,10 +10,9 @@ export default function BaseLayout({ header, children }: BaseLayoutProps) {
 	return (
 		<div className="w-full flex flex-col">
 			{header}
-			<SidebarInset>
-				<div
-					className={`h-[calc(100svh-var(--layout-header-height))] overflow-y-auto bg-blue-200`}
-				>
+			{/* override 'min-h-svh' in component with: */}
+			<SidebarInset className="min-h-fit">
+				<div className="h-[calc(100svh-var(--layout-header-height))] overflow-y-auto bg-blue-200">
 					{children}
 				</div>
 			</SidebarInset>
