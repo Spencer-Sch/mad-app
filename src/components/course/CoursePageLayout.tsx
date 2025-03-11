@@ -17,10 +17,10 @@ export default function CoursePageLayout({
 			defaultOpen={[]}
 			sidebarNames={[appSidebar, courseSidebar]}
 		>
-			<div className="w-[--sidebar-width-icon] shrink-0">
+			<div className="hidden md:flex md:w-[--sidebar-width-icon] md:shrink-0">
 				<AppSidebar name={appSidebar} openOnHover={true} />
 			</div>
-			<div className="shrink-0">
+			<div className="hidden md:flex md:w-[--sidebar-width] md:shrink-0">
 				<CourseSidebar name={courseSidebar} />
 			</div>
 			<div className="flex-grow">

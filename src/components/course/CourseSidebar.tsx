@@ -1,3 +1,4 @@
+'use client'
 import { RxReader } from 'react-icons/rx'
 
 import {
@@ -9,6 +10,7 @@ import {
 	SidebarMenuItem,
 } from '@/components/ui/sidebar'
 import Link from 'next/link'
+import { useIsMobile } from '@/hooks/use-mobile'
 
 const items = [
 	{
@@ -24,8 +26,13 @@ const items = [
 ]
 
 export default function CoursSidebar({ name }: { name: string }) {
+	const isMobile = useIsMobile()
 	return (
-		<Sidebar name={name} collapsible="none" variant="inset">
+		<Sidebar
+			name={name}
+			collapsible={isMobile ? 'offcanvas' : 'none'}
+			variant="inset"
+		>
 			<SidebarHeader>Making a Drummer</SidebarHeader>
 			<SidebarContent className="pt-24">
 				<SidebarMenu>
