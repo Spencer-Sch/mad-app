@@ -9,7 +9,7 @@
 import * as React from 'react'
 import { Slot } from '@radix-ui/react-slot'
 import { VariantProps, cva } from 'class-variance-authority'
-import { PanelLeft } from 'lucide-react'
+import { Book, Menu } from 'lucide-react'
 
 import { useIsMobile } from '@/hooks/use-mobile'
 import { cn } from '@/lib/utils'
@@ -25,6 +25,7 @@ import {
 	TooltipTrigger,
 } from '@/components/ui/tooltip'
 import { useDebounce } from '@/hooks/useDebouce'
+import { sidebarNames } from '@/lib/constants'
 
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7
 const SIDEBAR_WIDTH = '16rem'
@@ -336,6 +337,7 @@ const SidebarTrigger = React.forwardRef<
 	}
 >(({ name, className, onClick, ...props }, ref) => {
 	const { toggleSidebar } = useSidebar()
+	const { appSidebar, courseSidebar } = sidebarNames
 
 	return (
 		<Button
@@ -350,7 +352,8 @@ const SidebarTrigger = React.forwardRef<
 			}}
 			{...props}
 		>
-			<PanelLeft />
+			{name === appSidebar && <Menu />}
+			{name === courseSidebar && <Book />}
 			<span className="sr-only">Toggle Sidebar</span>
 		</Button>
 	)
