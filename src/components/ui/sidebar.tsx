@@ -12,6 +12,7 @@ import { VariantProps, cva } from 'class-variance-authority'
 import { Book, Menu } from 'lucide-react'
 
 import { useIsMobile } from '@/hooks/use-mobile'
+import { useDeviceDetect } from '@/hooks/useDeviceDetect'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -40,6 +41,7 @@ type SidebarContext = {
 	openMobile: string[]
 	setOpenMobile: React.Dispatch<React.SetStateAction<string[]>>
 	isMobile: boolean
+	isTouchDevice: boolean
 	toggleSidebar: (names: string[]) => void
 }
 
@@ -77,6 +79,7 @@ const SidebarProvider = React.forwardRef<
 		ref
 	) => {
 		const isMobile = useIsMobile()
+		const isTouchDevice = useDeviceDetect()
 		const [openMobile, setOpenMobile] = React.useState<string[]>([])
 
 		// This is the internal state of the sidebar.
@@ -116,9 +119,11 @@ const SidebarProvider = React.forwardRef<
 					return temp
 				}
 
-				return isMobile ? setOpenMobile(setOpenState) : setOpen(setOpenState)
+				return isMobile || isTouchDevice
+					? setOpenMobile(setOpenState)
+					: setOpen(setOpenState)
 			},
-			[isMobile, setOpen, setOpenMobile]
+			[isMobile, isTouchDevice, setOpen, setOpenMobile]
 		)
 
 		// Adds a keyboard shortcut to toggle the sidebar.
@@ -147,11 +152,21 @@ const SidebarProvider = React.forwardRef<
 				open,
 				setOpen,
 				isMobile,
+				isTouchDevice,
 				openMobile,
 				setOpenMobile,
 				toggleSidebar,
 			}),
-			[state, open, setOpen, isMobile, openMobile, setOpenMobile, toggleSidebar]
+			[
+				state,
+				open,
+				setOpen,
+				isMobile,
+				isTouchDevice,
+				openMobile,
+				setOpenMobile,
+				toggleSidebar,
+			]
 		)
 
 		return (
@@ -204,7 +219,14 @@ const Sidebar = React.forwardRef<
 		},
 		ref
 	) => {
-		const { isMobile, state, openMobile, setOpenMobile, setOpen } = useSidebar()
+		const {
+			isMobile,
+			isTouchDevice,
+			state,
+			openMobile,
+			setOpenMobile,
+			setOpen,
+		} = useSidebar()
 		const justOpenedRef = React.useRef(false)
 
 		const handleMouseEnter = () => {
@@ -243,7 +265,7 @@ const Sidebar = React.forwardRef<
 			)
 		}
 
-		if (isMobile) {
+		if (isMobile || isTouchDevice) {
 			return (
 				<Sheet
 					open={openMobile.includes(name)}
@@ -633,7 +655,7 @@ const SidebarMenuButton = React.forwardRef<
 		ref
 	) => {
 		const Comp = asChild ? Slot : 'button'
-		const { isMobile, state } = useSidebar()
+		const { isMobile, isTouchDevice, state } = useSidebar()
 
 		const button = (
 			<Comp
@@ -662,7 +684,7 @@ const SidebarMenuButton = React.forwardRef<
 				<TooltipContent
 					side="right"
 					align="center"
-					hidden={isCollapsed || isMobile}
+					hidden={isCollapsed || isMobile || isTouchDevice}
 					{...tooltip}
 				/>
 			</Tooltip>

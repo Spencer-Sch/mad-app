@@ -11,6 +11,7 @@ import {
 } from '@/components/ui/sidebar'
 import Link from 'next/link'
 import { useIsMobile } from '@/hooks/use-mobile'
+import { useDeviceDetect } from '@/hooks/useDeviceDetect'
 
 const items = [
 	{
@@ -27,10 +28,12 @@ const items = [
 
 export default function CoursSidebar({ name }: { name: string }) {
 	const isMobile = useIsMobile()
+	const isTouchDevice = useDeviceDetect()
+
 	return (
 		<Sidebar
 			name={name}
-			collapsible={isMobile ? 'offcanvas' : 'none'}
+			collapsible={isMobile || isTouchDevice ? 'offcanvas' : 'none'}
 			variant="inset"
 		>
 			<SidebarHeader>Making a Drummer</SidebarHeader>
