@@ -67,6 +67,10 @@ const config: Config = {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)',
 			},
+			screens: {
+				'hover-device': { raw: '(hover: hover) and (pointer: fine)' },
+				'touch-device': { raw: '(any-pointer: coarse)' },
+			},
 		},
 	},
 	plugins: [tailwindcssAnimate],
