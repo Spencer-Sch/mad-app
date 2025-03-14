@@ -13,7 +13,7 @@ export default function DashboardPageLayout({
 	const { appSidebar } = sidebarNames
 	return (
 		<SidebarProvider defaultOpen={[]} sidebarNames={[appSidebar]}>
-			<div className="hidden md:w-[--sidebar-width-icon] md:shrink-0 md:flex">
+			<div className="touch-device:hidden md:hover-device:w-[--sidebar-width-icon] md:hover-device:shrink-0 md:hover-device:flex">
 				<AppSidebar name={appSidebar} openOnHover={true} />
 			</div>
 			<div className="flex-grow">
