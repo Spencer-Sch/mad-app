@@ -9,7 +9,7 @@ export default function CourseHeader() {
 	return (
 		<header className="w-full h-[--layout-header-height]">
 			<h1>Course Header</h1>
-			<div className="flex justify-between md:hidden">
+			<div className="flex justify-between md:hover-device:hidden">
 				<SidebarTrigger name={courseSidebar} />
 				<Link
 					href="/dashboard"
