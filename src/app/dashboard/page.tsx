@@ -1,3 +1,4 @@
+import DashboardHome from '@/components/dashboard/DashboardHome'
 import { metaDescription } from '@/lib/meta'
 import { Metadata } from 'next'
 
@@ -7,10 +8,5 @@ export const metadata: Metadata = {
 }
 
 export default function DashboardPage() {
-	return (
-		<>
-			<p>DashboardPage</p>
-			{/* <DashboardHome /> */}
-		</>
-	)
+	return <DashboardHome />
 }
