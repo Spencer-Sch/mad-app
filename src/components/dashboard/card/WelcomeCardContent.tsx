@@ -14,7 +14,7 @@ export default function WelcomeCardContent() {
 			<p>
 				📝 I&apos;d love to hear from you! Please send feedback about any issues
 				you encounter or features you&apos;d like to see in future updates to
-				admin.mad-app@gmail.com.
+				[ENTER FEEDBACK EMAIL ADDRESS HERE].
 			</p>
 			<p>
 				Ready to start your drumming journey?{' '}
