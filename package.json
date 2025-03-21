@@ -11,7 +11,9 @@
 		"format:check": "prettier --check .",
 		"test": "jest",
 		"test:watch": "jest --watch",
-		"update-types": "supabase gen types typescript --project-id egykwavcqlwnfppxcgfp --schema public > src/types/supabase.ts"
+		"update-types": "supabase gen types typescript --project-id egykwavcqlwnfppxcgfp --schema public > src/types/supabase.ts",
+		"build-scripts": "tsc -p tsconfig.seed.json",
+		"run-seed-js": "dotenv -e .env.local -- node dist-scripts/src/supabase/scripts/seed.js courses",
 		"seed": "npm run build-scripts && dotenv -e .env.local -- node dist-scripts/src/supabase/scripts/seed.js",
 		"seed:all": "npm run seed -- all --all",
 		"seed:courses": "npm run seed -- courses",
