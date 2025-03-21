@@ -10,7 +10,8 @@
 		"format": "prettier --write .",
 		"format:check": "prettier --check .",
 		"test": "jest",
-		"test:watch": "jest --watch"
+		"test:watch": "jest --watch",
+		"update-types": "supabase gen types typescript --project-id egykwavcqlwnfppxcgfp --schema public > src/types/supabase.ts"
 	},
 	"dependencies": {
 		"@radix-ui/react-dialog": "^1.1.6",
