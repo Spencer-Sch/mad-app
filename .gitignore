@@ -16,6 +16,9 @@
 # production
 /build
 
+# compiled scripts
+/dist-scripts
+
 # misc
 .DS_Store
 *.pem
