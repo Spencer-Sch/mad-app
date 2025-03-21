@@ -12,6 +12,19 @@
 		"test": "jest",
 		"test:watch": "jest --watch",
 		"update-types": "supabase gen types typescript --project-id egykwavcqlwnfppxcgfp --schema public > src/types/supabase.ts"
+		"seed": "npm run build-scripts && dotenv -e .env.local -- node dist-scripts/src/supabase/scripts/seed.js",
+		"seed:all": "npm run seed -- all --all",
+		"seed:courses": "npm run seed -- courses",
+		"seed:chapters": "npm run seed -- chapters",
+		"seed:sections": "npm run seed -- sections",
+		"seed:subsections": "npm run seed -- subsections",
+		"seed:collections": "npm run seed -- collections",
+		"seed:exercises": "npm run seed -- exercises",
+		"seed:etudes": "npm run seed -- etudes",
+		"seed:instructions": "npm run seed -- instructions",
+		"seed:references": "npm run seed -- references",
+		"seed:metronome-levels": "npm run seed -- metronome_levels",
+		"seed:related-exercises": "npm run seed -- related_exercises"
 	},
 	"dependencies": {
 		"@radix-ui/react-dialog": "^1.1.6",
