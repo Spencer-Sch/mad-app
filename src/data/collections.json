@@ -6,6 +6,14 @@
 			"title": "Whole, Half, Quarter Note and Rest Combinations",
 			"page_number": 20,
 			"description": "Individual exercises focusing on specific whole, half, quarter note and rest combinations."
+		},
+		{
+			"id": "col-enqn",
+			"subsection_id": "sub-enr",
+			"title": "Eighth Note and Quarter Note Combinations",
+			"page_number": 22,
+			"description": "Individual exercises focusing on specific eighth note and quarter note combinations"
+		},
 		}
 	]
 }
