@@ -6,6 +6,13 @@
 			"title": "Whole Notes, Half Notes, Quarter Notes and Their Equivalent Rests",
 			"page_number": 20,
 			"description": "Introduction to basic note values and rest."
+		},
+		{
+			"id": "sub-enr",
+			"section_id": "s1-1",
+			"title": "Eighth Notes and Rests",
+			"page_number": 22,
+			"description": "Introduction to eighth notes and rests with various rhythmic combinations."
 		}
 	]
 }
