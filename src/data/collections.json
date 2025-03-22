@@ -1,8 +1,8 @@
 {
 	"v1": [
 		{
-			"id": "collection-whole-half-quarter-notes-and-rests",
-			"subsection_id": "subsection-whole-half-quarter-notes-and-rests",
+			"id": "col-whqnr",
+			"subsection_id": "sub-whqnr",
 			"title": "Whole Notes, Half Notes, Quarter Notes and Their Equivalent Rests",
 			"page_number": 20,
 			"description": "Individual exercises focusing on specific note values and rest combinations."
