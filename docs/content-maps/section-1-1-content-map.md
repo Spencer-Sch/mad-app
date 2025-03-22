@@ -4,7 +4,7 @@
 
 ### Subsection - Whole Notes, Half Notes, Quarter Notes and Their Equivalent Rests
 
-#### Collection - Whole Notes, Half Notes, Quarter Notes and Their Equivalent Rests
+#### Collection - Whole, Half, Quarter Note and Rest Combinations
 
 **Collection Id Abbreviation :** whqnr
 **Exercise Numbers:** 1-22
@@ -12,19 +12,19 @@
 
 ### Subsection - Eighth Notes and Rests
 
-#### Collection - Eighth Notes and Quarter Notes
+#### Collection - Eighth Note and Quarter Note Combinations
 
 **Collection Id Abbreviation :** enqn
 **Exercise Numbers:** 1-15
 **Etude Numbers:** 1-3
 
-#### Collection - Eighth Notes and Quarter Rests
+#### Collection - Eighth Note and Quarter Rest Combinations
 
 **Collection Id Abbreviation :** enqr
 **Exercise Numbers:** 16-30
 **Etude Numbers:** 4-6
 
-#### Collection - Eighth Notes and Eighth Rests
+#### Collection - Eighth Note and Eighth Rest Combinations
 
 **Collection Id Abbreviation :** ener
 **Exercise Numbers:** 31-49
@@ -33,13 +33,13 @@
 
 ### Subsection - Sixteenth Notes
 
-#### Collection - Sixteenth Notes and Quarter Notes
+#### Collection - Sixteenth Note and Quarter Note Combinations
 
 **Collection Id Abbreviation :** snqn
 **Exercise Numbers:** 1-15
 **Etude Numbers:** 1-3
 
-#### Collection - Sixteenth Notes and Eighth Notes
+#### Collection - Sixteenth Note and Eighth Note Combinations
 
 **Collection Id Abbreviation :** snen
 **Exercise Numbers:** 16-30
