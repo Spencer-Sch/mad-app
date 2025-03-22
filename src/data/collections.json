@@ -42,6 +42,12 @@
 			"page_number": 27,
 			"description": "Individual exercises focusing on specific sixteenth note and eighth note combinations"
 		},
+		{
+			"id": "col-re1",
+			"subsection_id": "sub-re1",
+			"title": "Review Etudes",
+			"page_number": 28,
+			"description": "Etudes which combine whole, half, quarter, eighth, and sixteenth notes along with whole, half, quarter, and eighth rests."
 		}
 	]
 }

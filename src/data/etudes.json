@@ -241,6 +241,50 @@
 			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/etudes/snen-e3.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/etudes/snen-e3.mp3",
 			"difficulty": 2
+		},
+		{
+			"id": "re1-e1",
+			"collection_id": "col-re1",
+			"number": 1,
+			"title": "Review Etude 1",
+			"page_number": 28,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-re1/col-re1/etudes/re1-e1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-re1/col-re1/etudes/re1-e1.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "re1-e2",
+			"collection_id": "col-re1",
+			"number": 2,
+			"title": "Review Etude 2",
+			"page_number": 28,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-re1/col-re1/etudes/re1-e2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-re1/col-re1/etudes/re1-e2.mp3",
+			"difficulty": 3
+		},
+		{
+			"id": "re1-e3",
+			"collection_id": "col-re1",
+			"number": 3,
+			"title": "Review Etude 3",
+			"page_number": 28,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-re1/col-re1/etudes/re1-e3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-re1/col-re1/etudes/re1-e3.mp3",
+			"difficulty": 4
+		},
+		{
+			"id": "re1-e4",
+			"collection_id": "col-re1",
+			"number": 4,
+			"title": "Review Etude 4",
+			"page_number": 28,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-re1/col-re1/etudes/re1-e4.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-re1/col-re1/etudes/re1-e4.mp3",
+			"difficulty": 4
 		}
 	]
 }

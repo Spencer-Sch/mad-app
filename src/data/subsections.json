@@ -21,6 +21,12 @@
 			"page_number": 26,
 			"description": "Introduction to sixteenth notes with various rhythmic combinations."
 		},
+		{
+			"id": "sub-re1",
+			"section_id": "s1-1",
+			"title": "Review Etudes",
+			"page_number": 28,
+			"description": "The first set of review etudes."
 		}
 	]
 }
