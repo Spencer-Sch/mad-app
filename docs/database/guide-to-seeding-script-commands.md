@@ -1,26 +1,28 @@
+Here's an updated guide to reflect the changes made to your seeding system:
+
 # Guide to Seeding Script Commands
 
 Here's a comprehensive guide to all the different ways you can use the seeding commands in your package.json, and when each option is most useful:
 
 ## Basic Commands
 
-### Seed All Entities (Latest Version)
+### Seed All Entities (Latest Entity IDs)
 
 ```bash
 npm run seed
 ```
 
-**When to use:** When you've made changes to multiple entity types and want to add all new data in the latest version of each JSON file. This is good for initial setup or when adding related data across multiple tables.
+**When to use:** When you've made changes to multiple entity types and want to add all new data organized by their respective entity IDs. This is good for initial setup or when adding related data across multiple tables.
 
-### Seed All Entities (All Versions)
+### Seed All Entities (All Entity IDs)
 
 ```bash
 npm run seed:all
 ```
 
-**When to use:** When you need to completely rebuild your database from scratch, including all historical data from all versions. Useful when setting up a new environment or after wiping your database.
+**When to use:** When you need to completely rebuild your database from scratch, including all data for all entity IDs. Useful when setting up a new environment or after wiping your database.
 
-### Seed Specific Entity (Latest Version)
+### Seed Specific Entity Type (Latest Entity ID)
 
 ```bash
 npm run seed:courses
@@ -33,51 +35,54 @@ npm run seed:sections
 
 ## Advanced Command Options
 
-### Seed Specific Entity with Specific Version
+### Seed Specific Entity Type with Specific Entity ID
 
 ```bash
-npm run seed -- courses v2
+npm run seed -- chapters making-a-drummer
+npm run seed -- sections ch1
+npm run seed -- collections sub-whqnr
 ```
 
-**When to use:** When you want to seed only a specific version of an entity, rather than the latest. Useful if you need to add data that you defined in an earlier version but skipped seeding previously.
+**When to use:** When you want to seed only a specific entity ID within an entity type. Useful for selectively adding or updating data for a specific part of your content hierarchy.
 
-### Seed Specific Entity with All Versions
+### Seed Specific Entity Type with All Entity IDs
 
 ```bash
 npm run seed -- courses --all
+npm run seed -- exercises --all
 ```
 
-**When to use:** When you want to reseed all historical versions of a specific entity type. Useful when you've made corrections to data across multiple versions.
+**When to use:** When you want to reseed all data for a specific entity type. Useful when you've made corrections to data across multiple entity IDs.
 
-### Seed All Entities with Specific Version
+### Seed All Entity Types with Specific Entity ID Pattern
 
 ```bash
-npm run seed -- all v2
+npm run seed -- all s1-1
 ```
 
-**When to use:** When you want to seed only version "v2" across all entity types. This is useful when you've coordinated version numbers across entities for a specific feature or release.
+**When to use:** When you want to seed data that corresponds to a specific pattern across all entity types. This is useful when you've added related content across multiple tables.
 
 ## Examples for Specific Scenarios
 
 ### Adding New Content
 
-You've added new chapter data in "v3" of chapters.json:
+You've added new exercises to the "col-enqn" collection:
 
 ```bash
-npm run seed:chapters
+npm run seed -- exercises col-enqn
 ```
 
-This automatically seeds just the latest version (v3).
+This seeds just the exercises for the "col-enqn" collection.
 
-### Correcting Historical Data
+### Adding a New Section
 
-You found an error in "v1" of your courses data and fixed it:
+You've added a new section "s1-2" to chapter 1:
 
 ```bash
-npm run seed -- courses v1
+npm run seed -- sections ch1
 ```
 
-This reseeds just version 1 of courses.
+This seeds all sections defined in the chapter 1 key of your sections.json file.
 
 ### Database Reset
 
@@ -87,27 +92,28 @@ You need to completely rebuild your database:
 npm run seed:all
 ```
 
-This seeds all versions of all entities in the correct dependency order.
+This seeds all entity IDs of all entity types in the correct dependency order.
 
 ### Selective Seeding for Testing
 
-You're testing a specific feature and need only certain entities:
+You're testing a specific feature that involves only certain entity types:
 
 ```bash
 npm run seed:courses
 npm run seed:chapters
 ```
 
-This seeds only the latest versions of courses and chapters.
+This seeds only the latest entity IDs for courses and chapters.
 
-### Adding Related Data Across Entities
+### Adding Related Data for a Specific Section
 
-You've added new "v2" data that includes related records across multiple tables:
+You've added new data related to section "s1-1" across multiple entity types:
 
 ```bash
-npm run seed -- all v2
+npm run seed -- subsections s1-1
+npm run seed -- collections sub-whqnr
 ```
 
-This ensures all "v2" data is added consistently across all entity types.
+This ensures all data related to section "s1-1" is added consistently.
 
-By using these different command variations, you can precisely control what data gets seeded and when, making your development process more efficient and error-free.
+By using these different command variations, you can precisely control what data gets seeded and when, making your development process more efficient and better organized. The entity ID-based approach gives you a natural way to organize and reference your data according to your method book's structure.
