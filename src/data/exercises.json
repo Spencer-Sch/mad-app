@@ -859,6 +859,156 @@
 			"notation": "/notations/ch1/s1-1/sub-sn/col-snqn/exercises/snqn-15.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snqn/exercises/snqn-15.mp3",
 			"difficulty": 2
+		},
+		{
+			"id": "snen-1",
+			"collection_id": "col-snen",
+			"number": 16,
+			"title": "Sixteenth Notes and Eighth Notes Pattern A",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-1.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-2",
+			"collection_id": "col-snen",
+			"number": 17,
+			"title": "Sixteenth Notes and Eighth Notes Pattern B",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-2.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-3",
+			"collection_id": "col-snen",
+			"number": 18,
+			"title": "Sixteenth Notes and Eighth Notes Pattern C",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-3.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-4",
+			"collection_id": "col-snen",
+			"number": 19,
+			"title": "Sixteenth Notes and Eighth Notes Pattern D",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-4.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-4.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-5",
+			"collection_id": "col-snen",
+			"number": 20,
+			"title": "Sixteenth Notes and Eighth Notes Pattern E",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-5.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-5.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-6",
+			"collection_id": "col-snen",
+			"number": 21,
+			"title": "Sixteenth Notes and Eighth Notes Pattern F",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-6.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-6.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-7",
+			"collection_id": "col-snen",
+			"number": 22,
+			"title": "Sixteenth Notes and Eighth Notes Pattern G",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-7.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-7.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-8",
+			"collection_id": "col-snen",
+			"number": 23,
+			"title": "Sixteenth Notes and Eighth Notes Pattern H",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-8.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-8.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-9",
+			"collection_id": "col-snen",
+			"number": 24,
+			"title": "Sixteenth Notes and Eighth Notes Pattern I",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-9.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-9.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-10",
+			"collection_id": "col-snen",
+			"number": 25,
+			"title": "Sixteenth Notes and Eighth Notes Pattern J",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-10.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-10.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-11",
+			"collection_id": "col-snen",
+			"number": 26,
+			"title": "Sixteenth Notes and Eighth Notes Pattern K",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-11.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-11.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-12",
+			"collection_id": "col-snen",
+			"number": 27,
+			"title": "Sixteenth Notes and Eighth Notes Pattern L",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-12.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-12.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-13",
+			"collection_id": "col-snen",
+			"number": 28,
+			"title": "Sixteenth Notes and Eighth Notes Pattern M",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-13.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-13.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-14",
+			"collection_id": "col-snen",
+			"number": 29,
+			"title": "Sixteenth Notes and Eighth Notes Pattern N",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-14.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-14.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-15",
+			"collection_id": "col-snen",
+			"number": 30,
+			"title": "Sixteenth Notes and Eighth Notes Pattern O",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/exercises/snen-15.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/exercises/snen-15.mp3",
+			"difficulty": 2
 		}
 	]
 }

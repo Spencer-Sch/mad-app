@@ -208,6 +208,39 @@
 			"notation": "/notations/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e3.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e3.mp3",
 			"difficulty": 2
+		},
+		{
+			"id": "snen-e1",
+			"collection_id": "col-snen",
+			"number": 4,
+			"title": "Sixteenth Notes Etude 4",
+			"page_number": 27,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/etudes/snen-e1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/etudes/snen-e1.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-e2",
+			"collection_id": "col-snen",
+			"number": 5,
+			"title": "Sixteenth Notes Etude 5",
+			"page_number": 27,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/etudes/snen-e2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/etudes/snen-e2.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-e3",
+			"collection_id": "col-snen",
+			"number": 6,
+			"title": "Sixteenth Notes Etude 6",
+			"page_number": 27,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/etudes/snen-e3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/etudes/snen-e3.mp3",
+			"difficulty": 2
 		}
 	]
 }

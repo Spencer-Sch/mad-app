@@ -35,6 +35,13 @@
 			"page_number": 26,
 			"description": "Individual exercises focusing on specific sixteenth note and quarter note combinations"
 		},
+		{
+			"id": "col-snen",
+			"subsection_id": "sub-sn",
+			"title": "Sixteenth Note and Eighth Note Combinations",
+			"page_number": 27,
+			"description": "Individual exercises focusing on specific sixteenth note and eighth note combinations"
+		},
 		}
 	]
 }
