@@ -87,6 +87,39 @@
 			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/etudes/enqn-e3.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/etudes/enqn-e3.mp3",
 			"difficulty": 1
+		},
+		{
+			"id": "enqr-e1",
+			"collection_id": "col-enqr",
+			"number": 4,
+			"title": "Eighth Notes and Rests Etude 4",
+			"page_number": 23,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e1.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqr-e2",
+			"collection_id": "col-enqr",
+			"number": 5,
+			"title": "Eighth Notes and Rests Etude 5",
+			"page_number": 23,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e2.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqr-e3",
+			"collection_id": "col-enqr",
+			"number": 6,
+			"title": "Eighth Notes and Rests Etude 6",
+			"page_number": 23,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e3.mp3",
+			"difficulty": 1
 		}
 	]
 }
