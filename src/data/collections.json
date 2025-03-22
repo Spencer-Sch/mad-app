@@ -1,11 +1,11 @@
 {
 	"v1": [
 		{
-			"id": "LOCAL_SECTION_ID",
-			"subsection_id": "placeholder",
-			"title": "placeholder",
-			"page_number": 10,
-			"description": "placeholder"
+			"id": "collection-whole-half-quarter-notes-and-rests",
+			"subsection_id": "subsection-whole-half-quarter-notes-and-rests",
+			"title": "Whole Notes, Half Notes, Quarter Notes and Their Equivalent Rests",
+			"page_number": 20,
+			"description": "Individual exercises focusing on specific note values and rest combinations."
 		}
 	]
 }
