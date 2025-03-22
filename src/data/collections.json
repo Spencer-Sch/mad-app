@@ -27,6 +27,14 @@
 			"title": "Eighth Note and Eighth Rest Combinations",
 			"page_number": 24,
 			"description": "Individual exercises focusing on specific eighth note and eighth rest combinations"
+		},
+		{
+			"id": "col-snqn",
+			"subsection_id": "sub-sn",
+			"title": "Sixteenth Note and Quarter Note Combinations",
+			"page_number": 26,
+			"description": "Individual exercises focusing on specific sixteenth note and quarter note combinations"
+		},
 		}
 	]
 }

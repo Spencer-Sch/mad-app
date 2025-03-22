@@ -175,6 +175,39 @@
 			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/etudes/ener-e5.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/etudes/ener-e5.mp3",
 			"difficulty": 3
+		},
+		{
+			"id": "snqn-e1",
+			"collection_id": "col-snqn",
+			"number": 1,
+			"title": "Sixteenth Notes and Quarter notes Etude 1",
+			"page_number": 26,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e1.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snqn-e2",
+			"collection_id": "col-snqn",
+			"number": 2,
+			"title": "Sixteenth Notes and Quarter notes Etude 2",
+			"page_number": 26,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e2.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snqn-e3",
+			"collection_id": "col-snqn",
+			"number": 3,
+			"title": "Sixteenth Notes and Quarter notes Etude 3",
+			"page_number": 25,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e3.mp3",
+			"difficulty": 2
 		}
 	]
 }
