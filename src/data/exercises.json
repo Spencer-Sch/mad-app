@@ -1,14 +1,224 @@
 {
 	"v1": [
 		{
-			"id": "LOCAL_SECTION_ID",
-			"collection_id": "placeholder",
+			"id": "ex-1",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 1,
+			"title": "Whole Note",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-1.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-1.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-2",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 2,
+			"title": "Whole Rest",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-2.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-2.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-3",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 3,
+			"title": "Half Notes",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-3.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-3.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-4",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 4,
+			"title": "Half Note and Half Rest",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-4.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-4.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-5",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 5,
+			"title": "Half Rest and Half Note",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-5.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-5.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-6",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 6,
+			"title": "Half Rests",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-6.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-6.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-7",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 7,
+			"title": "Quarter Notes",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-7.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-7.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-8",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 8,
+			"title": "Quarter Notes and Rests Pattern A",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-8.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-8.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-9",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 9,
+			"title": "Quarter Notes and Rests Pattern B",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-9.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-9.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-10",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
 			"number": 10,
-			"title": "placeholder",
-			"description": "placeholder",
-			"notation": "placeholder",
-			"audio_url": "placeholder",
-			"difficulty": 10
+			"title": "Quarter Notes and Rests Pattern C",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-10.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-10.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-11",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 11,
+			"title": "Quarter Notes and Rests Pattern D",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-11.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-11.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-12",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 12,
+			"title": "Quarter Notes and Rests Pattern E",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-12.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-12.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-13",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 13,
+			"title": "Quarter Notes and Rests Pattern F",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-13.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-13.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-14",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 14,
+			"title": "Quarter Notes and Rests Pattern G",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-14.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-14.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-15",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 15,
+			"title": "Quarter Notes and Rests Pattern H",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-15.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-15.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-16",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 16,
+			"title": "Quarter Notes and Rests Pattern I",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-16.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-16.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-17",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 17,
+			"title": "Quarter Notes and Rests Pattern J",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-17.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-17.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-18",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 18,
+			"title": "Quarter Notes and Rests Pattern K",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-18.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-18.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-19",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 19,
+			"title": "Quarter Notes and Rests Pattern L",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-19.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-19.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-20",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 20,
+			"title": "Quarter Notes and Rests Pattern M",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-20.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-20.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-21",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 21,
+			"title": "Quarter Notes and Rests Pattern N",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-21.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-21.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "ex-22",
+			"collection_id": "collection-whole-half-quarter-notes-and-rests",
+			"number": 22,
+			"title": "Quarter Rests",
+			"description": "",
+			"notation": "/notations/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-22.svg",
+			"audio_url": "/audio/chapter-1/section-1-1/subsection-whole-half-quarter-notes-and-rests/collection-whole-half-quarter-notes-and-rests/ex-22.mp3",
+			"difficulty": 1
 		}
 	]
 }
