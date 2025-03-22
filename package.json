@@ -15,6 +15,7 @@
 		"build-scripts": "tsc -p tsconfig.seed.json",
 		"run-seed-js": "dotenv -e .env.local -- node dist-scripts/src/supabase/scripts/seed.js courses",
 		"seed": "npm run build-scripts && dotenv -e .env.local -- node dist-scripts/src/supabase/scripts/seed.js",
+		"seed:entity": "npm run build-scripts && dotenv -e .env.local -- node dist-scripts/src/supabase/scripts/seed.js",
 		"seed:all": "npm run seed -- all --all",
 		"seed:courses": "npm run seed -- courses",
 		"seed:chapters": "npm run seed -- chapters",
