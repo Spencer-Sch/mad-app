@@ -52,34 +52,37 @@ export abstract class BaseSeeder<TSeed extends SeedEntity, TRow> {
 		}
 	}
 
-	public async seed(version = 'latest'): Promise<TRow[]> {
-		// Determine which versions to seed
-		const allVersions = Object.keys(this.data)
+	public async seed(entityId = 'latest'): Promise<TRow[]> {
+		// Get all entity IDs
+		const allEntityIds = Object.keys(this.data)
 
-		if (allVersions.length === 0) {
-			console.warn(`No versions found in data for ${this.table}`)
+		if (allEntityIds.length === 0) {
+			console.warn(`No entities found in data for ${this.table}`)
 			return []
 		}
 
-		const versionsToSeed =
-			version === 'latest'
-				? [allVersions[allVersions.length - 1]] // Just the newest version
-				: version === 'all'
-					? allVersions // All versions
-					: [version] // Specific version
+		const entitiesToSeed =
+			entityId === 'latest'
+				? [allEntityIds[allEntityIds.length - 1]] // Just the newest entity
+				: entityId === 'all'
+					? allEntityIds // All entities
+					: [entityId] // Specific entity
 
-		console.log(`Seeding ${this.table} (${versionsToSeed.join(', ')})...`)
+		console.log(`Seeding ${this.table} (${entitiesToSeed.join(', ')})...`)
 
 		const seededEntities: TRow[] = []
 
-		for (const ver of versionsToSeed) {
-			if (!this.data[ver]) {
-				console.warn(`Version ${ver} not found in ${this.table} data`)
+		for (const id of entitiesToSeed) {
+			if (!this.data[id]) {
+				console.warn(`Entity ${id} not found in ${this.table} data`)
 				continue
 			}
 
-			// Process entities for this version
-			for (const entity of this.data[ver]) {
+			// Get the entity data - assuming we have an array of one entity per ID
+			// If you have multiple entities with the same ID, you would iterate through this array
+			const entityArray = this.data[id]
+
+			for (const entity of entityArray) {
 				// Skip if already seeded
 				if (this.referenceMap.has(entity.id)) {
 					console.log(
@@ -88,25 +91,19 @@ export abstract class BaseSeeder<TSeed extends SeedEntity, TRow> {
 					continue
 				}
 
-				// Replace foreign key references with actual database IDs
+				// The rest of the processing remains largely the same
 				const processedEntity = { ...entity }
-
-				// Remove the local ID before insertion
 				const { id: localId, ...entityToInsert } = processedEntity
-
-				// Add local_id field to track our entities
 				Object.assign(entityToInsert, { local_id: localId })
 
 				// Process foreign keys
 				for (const fkField of this.foreignKeys) {
-					// Using type assertion to satisfy TypeScript
 					const fieldValue =
 						entityToInsert[fkField as keyof typeof entityToInsert]
 
 					if (fieldValue && typeof fieldValue === 'string') {
 						const realId = this.findRealId(fieldValue)
 						if (realId) {
-							// Use type assertion to tell TypeScript this is safe
 							;(entityToInsert as any)[fkField] = realId
 						} else {
 							console.warn(
@@ -128,7 +125,6 @@ export abstract class BaseSeeder<TSeed extends SeedEntity, TRow> {
 				}
 
 				if (data && data.length > 0) {
-					// Map the local ID to the database ID
 					this.referenceMap.set(localId, data[0].id)
 					seededEntities.push(data[0] as TRow)
 					console.log(`✅ Added ${this.table}: ${localId} (${data[0].id})`)

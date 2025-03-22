@@ -69,7 +69,7 @@ const dependencies: Record<EntityType, EntityType[]> = {
 	related_exercises: ['exercises', 'etudes'],
 }
 
-async function seedEntity(entityType: EntityType, version = 'latest') {
+async function seedEntity(entityType: EntityType, entityId = 'latest') {
 	console.log(`\nProcessing ${entityType}...`)
 
 	// Load existing entities first
@@ -86,14 +86,14 @@ async function seedEntity(entityType: EntityType, version = 'latest') {
 	}
 
 	// Seed the entity
-	await seeders[entityType].seed(version)
+	await seeders[entityType].seed(entityId)
 }
 
 async function main() {
 	try {
 		// Parse command line arguments
 		const args = process.argv.slice(2)
-		const version = args.includes('--all') ? 'all' : 'latest'
+		const entityIdArg = args.includes('--all') ? 'all' : args[1] || 'latest'
 		const entityTypeArg = args[0] || 'all'
 
 		if (entityTypeArg === 'all') {
@@ -115,7 +115,7 @@ async function main() {
 					)
 
 					if (allDepsProcessed) {
-						await seedEntity(entity, version)
+						await seedEntity(entity, entityIdArg)
 						processedEntities.add(entity)
 						processedAny = true
 					}
@@ -139,7 +139,7 @@ async function main() {
 				process.exit(1)
 			}
 
-			await seedEntity(entityTypeArg as EntityType, version)
+			await seedEntity(entityTypeArg as EntityType, entityIdArg)
 		}
 
 		console.log('\n✅ Database seeding completed successfully!')
