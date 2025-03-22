@@ -219,6 +219,156 @@
 			"notation": "/notations/ch1/s1-1/sub-whqnr/col-whqnr/exercises/whqnr-22.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-whqnr/col-whqnr/exercises/whqnr-22.mp3",
 			"difficulty": 1
+		},
+		{
+			"id": "enqn-1",
+			"collection_id": "col-enqn",
+			"number": 1,
+			"title": "Eighth Notes and Quarter Notes Pattern A",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-1.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-2",
+			"collection_id": "col-enqn",
+			"number": 2,
+			"title": "Eighth Notes and Quarter Notes Pattern B",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-2.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-3",
+			"collection_id": "col-enqn",
+			"number": 3,
+			"title": "Eighth Notes and Quarter Notes Pattern C",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-3.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-4",
+			"collection_id": "col-enqn",
+			"number": 4,
+			"title": "Eighth Notes and Quarter Notes Pattern D",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-4.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-4.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-5",
+			"collection_id": "col-enqn",
+			"number": 5,
+			"title": "Eighth Notes and Quarter Notes Pattern E",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-5.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-5.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-6",
+			"collection_id": "col-enqn",
+			"number": 6,
+			"title": "Eighth Notes and Quarter Notes Pattern F",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-6.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-6.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-7",
+			"collection_id": "col-enqn",
+			"number": 7,
+			"title": "Eighth Notes and Quarter Notes Pattern G",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-7.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-7.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-8",
+			"collection_id": "col-enqn",
+			"number": 8,
+			"title": "Eighth Notes and Quarter Notes Pattern H",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-8.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-8.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-9",
+			"collection_id": "col-enqn",
+			"number": 9,
+			"title": "Eighth Notes and Quarter Notes Pattern I",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-9.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-9.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-10",
+			"collection_id": "col-enqn",
+			"number": 10,
+			"title": "Eighth Notes and Quarter Notes Pattern J",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-10.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-10.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-11",
+			"collection_id": "col-enqn",
+			"number": 11,
+			"title": "Eighth Notes and Quarter Notes Pattern K",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-11.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-11.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-12",
+			"collection_id": "col-enqn",
+			"number": 12,
+			"title": "Eighth Notes and Quarter Notes Pattern L",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-12.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-12.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-13",
+			"collection_id": "col-enqn",
+			"number": 13,
+			"title": "Eighth Notes and Quarter Notes Pattern M",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-13.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-13.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-14",
+			"collection_id": "col-enqn",
+			"number": 14,
+			"title": "Eighth Notes and Quarter Notes Pattern N",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-14.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-14.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-15",
+			"collection_id": "col-enqn",
+			"number": 15,
+			"title": "Eighth Notes",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-15.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-15.mp3",
+			"difficulty": 1
 		}
 	]
 }
