@@ -4,6 +4,8 @@
 
 ### Subsection - Whole Notes, Half Notes, Quarter Notes and Their Equivalent Rests
 
+**Subsection Id Abbreviation :** whqnr
+
 #### Collection - Whole, Half, Quarter Note and Rest Combinations
 
 **Collection Id Abbreviation :** whqnr
@@ -11,6 +13,8 @@
 **Etude Numbers:** 1-5
 
 ### Subsection - Eighth Notes and Rests
+
+**Subsection Id Abbreviation :** enr
 
 #### Collection - Eighth Note and Quarter Note Combinations
 
@@ -33,6 +37,8 @@
 
 ### Subsection - Sixteenth Notes
 
+**Subsection Id Abbreviation :** sn
+
 #### Collection - Sixteenth Note and Quarter Note Combinations
 
 **Collection Id Abbreviation :** snqn
@@ -46,6 +52,8 @@
 **Etude Numbers:** 4-6
 
 ### Subsection - Review Etudes
+
+**Subsection Id Abbreviation :** re1
 
 **Note:** Review Etudes are a special type of subsection that reoccures regularly throughout Section 1.1. These etudes will combine rhythmic concepts from all previous subsections/collections in order to review everything the student has learned up to this point. The number system for review etudes continuous and continues where the previous review etude number left off.
 **Etude Numbers:** 1-4
