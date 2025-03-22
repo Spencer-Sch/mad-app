@@ -1,0 +1,15 @@
+{
+	"v1": [
+		{
+			"id": "LOCAL_SECTION_ID",
+			"collection_id": "placeholder",
+			"number": 10,
+			"title": "placeholder",
+			"page_number": 10,
+			"description": "placeholder",
+			"notation": "placeholder",
+			"audio_url": "placeholder",
+			"difficulty": 10
+		}
+	]
+}

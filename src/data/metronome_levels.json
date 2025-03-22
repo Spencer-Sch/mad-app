@@ -1,0 +1,15 @@
+{
+	"v1": [
+		{
+			"id": "LOCAL_SECTION_ID",
+			"section_id": "placeholder",
+			"label": "placeholder",
+			"beginner_note_value": "placeholder",
+			"beginner_tempo": 10,
+			"intermediate_note_value": "placeholder",
+			"intermediate_tempo": 10,
+			"advanced_note_value": "placeholder",
+			"advanced_tempo": 10
+		}
+	]
+}

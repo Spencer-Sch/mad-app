@@ -1,0 +1,11 @@
+{
+	"v1": [
+		{
+			"id": "chapter-1",
+			"course_id": "making-a-drummer",
+			"number": 1,
+			"title": "Reading",
+			"page_number_start": 19
+		}
+	]
+}
