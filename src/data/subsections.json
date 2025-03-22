@@ -13,6 +13,14 @@
 			"title": "Eighth Notes and Rests",
 			"page_number": 22,
 			"description": "Introduction to eighth notes and rests with various rhythmic combinations."
+		},
+		{
+			"id": "sub-sn",
+			"section_id": "s1-1",
+			"title": "Sixteenth Notes",
+			"page_number": 26,
+			"description": "Introduction to sixteenth notes with various rhythmic combinations."
+		},
 		}
 	]
 }
