@@ -1,12 +1,14 @@
 {
-	"v1": [
+	"sub-whqnr": [
 		{
 			"id": "col-whqnr",
 			"subsection_id": "sub-whqnr",
 			"title": "Whole, Half, Quarter Note and Rest Combinations",
 			"page_number": 20,
 			"description": "Individual exercises focusing on specific whole, half, quarter note and rest combinations."
-		},
+		}
+	],
+	"sub-enr": [
 		{
 			"id": "col-enqn",
 			"subsection_id": "sub-enr",
@@ -27,7 +29,9 @@
 			"title": "Eighth Note and Eighth Rest Combinations",
 			"page_number": 24,
 			"description": "Individual exercises focusing on specific eighth note and eighth rest combinations"
-		},
+		}
+	],
+	"sub-sn": [
 		{
 			"id": "col-snqn",
 			"subsection_id": "sub-sn",
@@ -41,7 +45,9 @@
 			"title": "Sixteenth Note and Eighth Note Combinations",
 			"page_number": 27,
 			"description": "Individual exercises focusing on specific sixteenth note and eighth note combinations"
-		},
+		}
+	],
+	"sub-re1": [
 		{
 			"id": "col-re1",
 			"subsection_id": "sub-re1",

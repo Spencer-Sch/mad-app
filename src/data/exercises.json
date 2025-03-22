@@ -1,5 +1,5 @@
 {
-	"v1": [
+	"col-whqnr": [
 		{
 			"id": "whqnr-1",
 			"collection_id": "col-whqnr",
@@ -219,7 +219,9 @@
 			"notation": "/notations/ch1/s1-1/sub-whqnr/col-whqnr/exercises/whqnr-22.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-whqnr/col-whqnr/exercises/whqnr-22.mp3",
 			"difficulty": 1
-		},
+		}
+	],
+	"col-enqn": [
 		{
 			"id": "enqn-1",
 			"collection_id": "col-enqn",
@@ -369,7 +371,9 @@
 			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-15.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/exercises/enqn-15.mp3",
 			"difficulty": 1
-		},
+		}
+	],
+	"col-enqr": [
 		{
 			"id": "enqr-1",
 			"collection_id": "col-enqr",
@@ -519,7 +523,9 @@
 			"notation": "/notations/ch1/s1-1/sub-enr/col-enqr/exercises/enqr-15.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqr/exercises/enqr-15.mp3",
 			"difficulty": 1
-		},
+		}
+	],
+	"col-ener": [
 		{
 			"id": "ener-1",
 			"collection_id": "col-ener",
@@ -709,7 +715,9 @@
 			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-19.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-19.mp3",
 			"difficulty": 2
-		},
+		}
+	],
+	"col-snqn": [
 		{
 			"id": "snqn-1",
 			"collection_id": "col-snqn",
@@ -859,7 +867,9 @@
 			"notation": "/notations/ch1/s1-1/sub-sn/col-snqn/exercises/snqn-15.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snqn/exercises/snqn-15.mp3",
 			"difficulty": 2
-		},
+		}
+	],
+	"col-snen": [
 		{
 			"id": "snen-1",
 			"collection_id": "col-snen",

@@ -1,5 +1,5 @@
 {
-	"v1": [
+	"col-whqnr": [
 		{
 			"id": "whqnr-e1",
 			"collection_id": "col-whqnr",
@@ -54,7 +54,9 @@
 			"notation": "/notations/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e5.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e5.mp3",
 			"difficulty": 1
-		},
+		}
+	],
+	"col-enqn": [
 		{
 			"id": "enqn-e1",
 			"collection_id": "col-enqn",
@@ -87,7 +89,9 @@
 			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/etudes/enqn-e3.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/etudes/enqn-e3.mp3",
 			"difficulty": 1
-		},
+		}
+	],
+	"col-enqr": [
 		{
 			"id": "enqr-e1",
 			"collection_id": "col-enqr",
@@ -120,7 +124,9 @@
 			"notation": "/notations/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e3.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e3.mp3",
 			"difficulty": 1
-		},
+		}
+	],
+	"col-ener": [
 		{
 			"id": "ener-e1",
 			"collection_id": "col-ener",
@@ -175,7 +181,9 @@
 			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/etudes/ener-e5.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/etudes/ener-e5.mp3",
 			"difficulty": 3
-		},
+		}
+	],
+	"col-snqn": [
 		{
 			"id": "snqn-e1",
 			"collection_id": "col-snqn",
@@ -208,7 +216,9 @@
 			"notation": "/notations/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e3.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e3.mp3",
 			"difficulty": 2
-		},
+		}
+	],
+	"col-snen": [
 		{
 			"id": "snen-e1",
 			"collection_id": "col-snen",
@@ -241,7 +251,9 @@
 			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/etudes/snen-e3.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/etudes/snen-e3.mp3",
 			"difficulty": 2
-		},
+		}
+	],
+	"col-re1": [
 		{
 			"id": "re1-e1",
 			"collection_id": "col-re1",
