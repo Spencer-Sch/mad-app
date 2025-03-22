@@ -20,6 +20,13 @@
 			"title": "Eighth Note and Quarter Rest Combinations",
 			"page_number": 23,
 			"description": "Individual exercises focusing on specific eighth note and quarter rest combinations"
+		},
+		{
+			"id": "col-ener",
+			"subsection_id": "sub-enr",
+			"title": "Eighth Note and Eighth Rest Combinations",
+			"page_number": 24,
+			"description": "Individual exercises focusing on specific eighth note and eighth rest combinations"
 		}
 	]
 }

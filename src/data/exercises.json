@@ -519,6 +519,196 @@
 			"notation": "/notations/ch1/s1-1/sub-enr/col-enqr/exercises/enqr-15.svg",
 			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqr/exercises/enqr-15.mp3",
 			"difficulty": 1
+		},
+		{
+			"id": "ener-1",
+			"collection_id": "col-ener",
+			"number": 31,
+			"title": "Eighth Notes and Eighth Rests Pattern A",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-1.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-2",
+			"collection_id": "col-ener",
+			"number": 32,
+			"title": "Eighth Notes and Eighth Rests Pattern B",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-2.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-3",
+			"collection_id": "col-ener",
+			"number": 33,
+			"title": "Eighth Notes and Eighth Rests Pattern C",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-3.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-4",
+			"collection_id": "col-ener",
+			"number": 34,
+			"title": "Eighth Notes and Eighth Rests Pattern D",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-4.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-4.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-5",
+			"collection_id": "col-ener",
+			"number": 35,
+			"title": "Eighth Notes and Eighth Rests Pattern E",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-5.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-5.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-6",
+			"collection_id": "col-ener",
+			"number": 36,
+			"title": "Eighth Notes and Eighth Rests Pattern F",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-6.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-6.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-7",
+			"collection_id": "col-ener",
+			"number": 37,
+			"title": "Eighth Notes and Eighth Rests Pattern G",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-7.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-7.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-8",
+			"collection_id": "col-ener",
+			"number": 38,
+			"title": "Eighth Notes and Eighth Rests Pattern H",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-8.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-8.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-9",
+			"collection_id": "col-ener",
+			"number": 39,
+			"title": "Eighth Notes and Eighth Rests Pattern I",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-9.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-9.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-10",
+			"collection_id": "col-ener",
+			"number": 40,
+			"title": "Eighth Notes and Eighth Rests Pattern J",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-10.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-10.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-11",
+			"collection_id": "col-ener",
+			"number": 41,
+			"title": "Eighth Notes and Eighth Rests Pattern K",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-11.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-11.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-12",
+			"collection_id": "col-ener",
+			"number": 42,
+			"title": "Eighth Notes and Eighth Rests Pattern L",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-12.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-12.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-13",
+			"collection_id": "col-ener",
+			"number": 43,
+			"title": "Eighth Notes and Eighth Rests Pattern M",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-13.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-13.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-14",
+			"collection_id": "col-ener",
+			"number": 44,
+			"title": "Eighth Notes and Eighth Rests Pattern N",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-14.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-14.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-15",
+			"collection_id": "col-ener",
+			"number": 45,
+			"title": "Eighth Notes and Eighth Rests Pattern O",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-15.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-15.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-16",
+			"collection_id": "col-ener",
+			"number": 46,
+			"title": "Eighth Notes and Eighth Rests Pattern P",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-16.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-16.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-17",
+			"collection_id": "col-ener",
+			"number": 47,
+			"title": "Eighth Notes and Eighth Rests Pattern Q",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-17.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-17.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-18",
+			"collection_id": "col-ener",
+			"number": 48,
+			"title": "Eighth Notes and Eighth Rests Pattern R",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-18.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-18.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-19",
+			"collection_id": "col-ener",
+			"number": 49,
+			"title": "Eighth Notes and Eighth Rests Pattern S",
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/exercises/ener-19.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/exercises/ener-19.mp3",
+			"difficulty": 2
 		}
 	]
 }
