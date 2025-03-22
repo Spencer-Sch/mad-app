@@ -1,15 +1,59 @@
 {
 	"v1": [
 		{
-			"id": "LOCAL_SECTION_ID",
-			"collection_id": "placeholder",
-			"number": 10,
-			"title": "placeholder",
-			"page_number": 10,
-			"description": "placeholder",
-			"notation": "placeholder",
-			"audio_url": "placeholder",
-			"difficulty": 10
+			"id": "whqnr-e1",
+			"collection_id": "col-whqnr",
+			"number": 1,
+			"title": "Whole, Half, Quarter Notes and Rests Etude 1",
+			"page_number": 20,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e1.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "whqnr-e2",
+			"collection_id": "col-whqnr",
+			"number": 2,
+			"title": "Whole, Half, Quarter Notes and Rests Etude 2",
+			"page_number": 21,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e2.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "whqnr-e3",
+			"collection_id": "col-whqnr",
+			"number": 3,
+			"title": "Whole, Half, Quarter Notes and Rests Etude 3",
+			"page_number": 21,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e3.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "whqnr-e4",
+			"collection_id": "col-whqnr",
+			"number": 4,
+			"title": "Whole, Half, Quarter Notes and Rests Etude 4",
+			"page_number": 21,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e4.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e4.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "whqnr-e5",
+			"collection_id": "col-whqnr",
+			"number": 5,
+			"title": "Whole, Half, Quarter Notes and Rests Etude 5",
+			"page_number": 21,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e5.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e5.mp3",
+			"difficulty": 1
 		}
 	]
 }
