@@ -1,11 +1,11 @@
 {
 	"v1": [
 		{
-			"id": "LOCAL_SECTION_ID",
-			"section_id": "placeholder",
-			"title": "placeholder",
-			"page_number": 10,
-			"description": "placeholder"
+			"id": "subsection-whole-half-quarter-notes-and-rests",
+			"section_id": "section-1-1",
+			"title": "Whole Notes, Half Notes, Quarter Notes and Their Equivalent Rests",
+			"page_number": 20,
+			"description": "Introduction to basic note values and rest."
 		}
 	]
 }
