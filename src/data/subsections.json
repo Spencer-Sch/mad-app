@@ -1,0 +1,32 @@
+{
+	"s1-1": [
+		{
+			"id": "sub-whqnr",
+			"section_id": "s1-1",
+			"title": "Whole Notes, Half Notes, Quarter Notes and Their Equivalent Rests",
+			"page_number": 20,
+			"description": "Introduction to basic note values and rest."
+		},
+		{
+			"id": "sub-enr",
+			"section_id": "s1-1",
+			"title": "Eighth Notes and Rests",
+			"page_number": 22,
+			"description": "Introduction to eighth notes and rests with various rhythmic combinations."
+		},
+		{
+			"id": "sub-sn",
+			"section_id": "s1-1",
+			"title": "Sixteenth Notes",
+			"page_number": 26,
+			"description": "Introduction to sixteenth notes with various rhythmic combinations."
+		},
+		{
+			"id": "sub-re1",
+			"section_id": "s1-1",
+			"title": "Review Etudes",
+			"page_number": 28,
+			"description": "The first set of review etudes."
+		}
+	]
+}

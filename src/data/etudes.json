@@ -1,0 +1,302 @@
+{
+	"col-whqnr": [
+		{
+			"id": "whqnr-e1",
+			"collection_id": "col-whqnr",
+			"number": 1,
+			"title": "Whole, Half, Quarter Notes and Rests Etude 1",
+			"page_number": 20,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e1.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "whqnr-e2",
+			"collection_id": "col-whqnr",
+			"number": 2,
+			"title": "Whole, Half, Quarter Notes and Rests Etude 2",
+			"page_number": 21,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e2.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "whqnr-e3",
+			"collection_id": "col-whqnr",
+			"number": 3,
+			"title": "Whole, Half, Quarter Notes and Rests Etude 3",
+			"page_number": 21,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e3.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "whqnr-e4",
+			"collection_id": "col-whqnr",
+			"number": 4,
+			"title": "Whole, Half, Quarter Notes and Rests Etude 4",
+			"page_number": 21,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e4.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e4.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "whqnr-e5",
+			"collection_id": "col-whqnr",
+			"number": 5,
+			"title": "Whole, Half, Quarter Notes and Rests Etude 5",
+			"page_number": 21,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e5.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-whqnr/col-whqnr/etudes/whqnr-e5.mp3",
+			"difficulty": 1
+		}
+	],
+	"col-enqn": [
+		{
+			"id": "enqn-e1",
+			"collection_id": "col-enqn",
+			"number": 1,
+			"title": "Eighth Notes and Rests Etude 1",
+			"page_number": 22,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/etudes/enqn-e1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/etudes/enqn-e1.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-e2",
+			"collection_id": "col-enqn",
+			"number": 2,
+			"title": "Eighth Notes and Rests Etude 2",
+			"page_number": 22,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/etudes/enqn-e2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/etudes/enqn-e2.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqn-e3",
+			"collection_id": "col-enqn",
+			"number": 3,
+			"title": "Eighth Notes and Rests Etude 3",
+			"page_number": 22,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqn/etudes/enqn-e3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqn/etudes/enqn-e3.mp3",
+			"difficulty": 1
+		}
+	],
+	"col-enqr": [
+		{
+			"id": "enqr-e1",
+			"collection_id": "col-enqr",
+			"number": 4,
+			"title": "Eighth Notes and Rests Etude 4",
+			"page_number": 23,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e1.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqr-e2",
+			"collection_id": "col-enqr",
+			"number": 5,
+			"title": "Eighth Notes and Rests Etude 5",
+			"page_number": 23,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e2.mp3",
+			"difficulty": 1
+		},
+		{
+			"id": "enqr-e3",
+			"collection_id": "col-enqr",
+			"number": 6,
+			"title": "Eighth Notes and Rests Etude 6",
+			"page_number": 23,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-enqr/etudes/enqr-e3.mp3",
+			"difficulty": 1
+		}
+	],
+	"col-ener": [
+		{
+			"id": "ener-e1",
+			"collection_id": "col-ener",
+			"number": 7,
+			"title": "Eighth Notes and Rests Etude 7",
+			"page_number": 24,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/etudes/ener-e1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/etudes/ener-e1.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-e2",
+			"collection_id": "col-ener",
+			"number": 8,
+			"title": "Eighth Notes and Rests Etude 8",
+			"page_number": 24,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/etudes/ener-e2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/etudes/ener-e2.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-e3",
+			"collection_id": "col-ener",
+			"number": 9,
+			"title": "Eighth Notes and Rests Etude 9",
+			"page_number": 25,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/etudes/ener-e3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/etudes/ener-e3.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "ener-e4",
+			"collection_id": "col-ener",
+			"number": 10,
+			"title": "Eighth Notes and Rests Etude 10",
+			"page_number": 25,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/etudes/ener-e4.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/etudes/ener-e4.mp3",
+			"difficulty": 3
+		},
+		{
+			"id": "ener-e5",
+			"collection_id": "col-ener",
+			"number": 11,
+			"title": "Eighth Notes and Rests Etude 11",
+			"page_number": 25,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-enr/col-ener/etudes/ener-e5.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-enr/col-ener/etudes/ener-e5.mp3",
+			"difficulty": 3
+		}
+	],
+	"col-snqn": [
+		{
+			"id": "snqn-e1",
+			"collection_id": "col-snqn",
+			"number": 1,
+			"title": "Sixteenth Notes Etude 1",
+			"page_number": 26,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e1.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snqn-e2",
+			"collection_id": "col-snqn",
+			"number": 2,
+			"title": "Sixteenth Notes Etude 2",
+			"page_number": 26,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e2.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snqn-e3",
+			"collection_id": "col-snqn",
+			"number": 3,
+			"title": "Sixteenth Notes Etude 3",
+			"page_number": 26,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snqn/etudes/snqn-e3.mp3",
+			"difficulty": 2
+		}
+	],
+	"col-snen": [
+		{
+			"id": "snen-e1",
+			"collection_id": "col-snen",
+			"number": 4,
+			"title": "Sixteenth Notes Etude 4",
+			"page_number": 27,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/etudes/snen-e1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/etudes/snen-e1.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-e2",
+			"collection_id": "col-snen",
+			"number": 5,
+			"title": "Sixteenth Notes Etude 5",
+			"page_number": 27,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/etudes/snen-e2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/etudes/snen-e2.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "snen-e3",
+			"collection_id": "col-snen",
+			"number": 6,
+			"title": "Sixteenth Notes Etude 6",
+			"page_number": 27,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-sn/col-snen/etudes/snen-e3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-sn/col-snen/etudes/snen-e3.mp3",
+			"difficulty": 2
+		}
+	],
+	"col-re1": [
+		{
+			"id": "re1-e1",
+			"collection_id": "col-re1",
+			"number": 1,
+			"title": "Review Etude 1",
+			"page_number": 28,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-re1/col-re1/etudes/re1-e1.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-re1/col-re1/etudes/re1-e1.mp3",
+			"difficulty": 2
+		},
+		{
+			"id": "re1-e2",
+			"collection_id": "col-re1",
+			"number": 2,
+			"title": "Review Etude 2",
+			"page_number": 28,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-re1/col-re1/etudes/re1-e2.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-re1/col-re1/etudes/re1-e2.mp3",
+			"difficulty": 3
+		},
+		{
+			"id": "re1-e3",
+			"collection_id": "col-re1",
+			"number": 3,
+			"title": "Review Etude 3",
+			"page_number": 28,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-re1/col-re1/etudes/re1-e3.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-re1/col-re1/etudes/re1-e3.mp3",
+			"difficulty": 4
+		},
+		{
+			"id": "re1-e4",
+			"collection_id": "col-re1",
+			"number": 4,
+			"title": "Review Etude 4",
+			"page_number": 28,
+			"description": "",
+			"notation": "/notations/ch1/s1-1/sub-re1/col-re1/etudes/re1-e4.svg",
+			"audio_url": "/audio/ch1/s1-1/sub-re1/col-re1/etudes/re1-e4.mp3",
+			"difficulty": 4
+		}
+	]
+}
