@@ -60,33 +60,50 @@
 
 ### Subsection - Broken Sixteenth Note Rhythms
 
-#### Collection - Basic Broken Sixteenth Rhythms
+**Subsection Id Abbreviation :** bsn
 
-**Collection Id Abbreviation :** bbsix
+#### Collection - Basic Broken Sixteenth Note Combinations
+
+#### Collection - Broken Sixteenth Note Combinations A
+
+**Collection Id Abbreviation :** bbsn
+**Collection Id Abbreviation :** bsna
 **Exercise Numbers:** 1-24
 **Etude Numbers:** 1-3
 
-#### Collection - Repeated Broken Sixteenth Rhythms
+#### Collection - Repeated Broken Sixteenth Note Combinations
 
-**Collection Id Abbreviation :** rbsix
+#### Collection - Broken Sixteenth Note Combinations B
+
+**Collection Id Abbreviation :** rbsn
+**Collection Id Abbreviation :** bsnb
 **Exercise Numbers:** 25-31
 **Etude Numbers:** 4-6
 
-#### Collection - Mixed Broken Sixteenth Rhythms
+#### Collection - Mixed Broken Sixteenth Note Combinations
 
-**Collection Id Abbreviation :** mbsix
+#### Collection - Broken Sixteenth Note Combinations C
+
+**Collection Id Abbreviation :** mbsn
+**Collection Id Abbreviation :** bsnc
 **Exercise Numbers:** 52-87
 **Etude Numbers:** 7-9
 
-#### Collection - Basic Broken Sixteenths with Full Sixteenths
+#### Collection - Basic Broken Sixteenth with Full Sixteenth Combinations
 
-**Collection Id Abbreviation :** bfsix
+#### Collection - Broken Sixteenth Note Combinations D
+
+**Collection Id Abbreviation :** bfsn
+**Collection Id Abbreviation :** bsnd
 **Exercise Numbers:** 88-105
 **Etude Numbers:** 10-12
 
 #### Collection - Mixed Broken Sixteenths with Full Sixteenths
 
-**Collection Id Abbreviation :** mfsix
+#### Collection - Broken Sixteenth Note Combinations E
+
+**Collection Id Abbreviation :** mfsn
+**Collection Id Abbreviation :** bsne
 **Exercise Numbers:** 106-123
 **Etude Numbers:** 13-15
 
@@ -97,38 +114,57 @@
 
 ### Subsection - Sixteenth Notes and Rests
 
+**Subsection Id Abbreviation :** snr
+
 #### Collection - First Two Sixteenths
 
-**Collection Id Abbreviation :** ft16
+#### Collection - Sixteenth Note and Rest Combinations A
+
+**Collection Id Abbreviation :** ft16 or f2sn or ftsn
+**Collection Id Abbreviation :** snra
 **Exercise Numbers:** 1-15
 **Etude Numbers:** 1
 
 #### Collection - Last Two Sixteenths
 
-**Collection Id Abbreviation :** lt16
+#### Collection - Sixteenth Note and Rest Combinations B
+
+**Collection Id Abbreviation :** l216 or l2sn ltsn
+**Collection Id Abbreviation :** snrb
 **Exercise Numbers:** 16-30
 **Etude Numbers:** 2
 
 #### Collection - Last Three Sixteenths
 
-**Collection Id Abbreviation :** l316
+#### Collection - Sixteenth Note and Rest Combinations C
+
+**Collection Id Abbreviation :** l316 or l3sn or ltsn
+**Collection Id Abbreviation :** snrc
 **Exercise Numbers:** 31-45
 **Etude Numbers:** 3
 
 #### Collection - Split Two Sixteenths
 
-**Collection Id Abbreviation :** st16
+#### Collection - Sixteenth Note and Rest Combinations D
+
+**Collection Id Abbreviation :** st16 or s2sn
+**Collection Id Abbreviation :** snrd
 **Exercise Numbers:** 46-60
 **Etude Numbers:** 4
 
 #### Collection - Middle Two Sixteenths
 
-**Collection Id Abbreviation :** mt16
+#### Collection - Sixteenth Note and Rest Combinations E
+
+**Collection Id Abbreviation :** mt16 or m2sn
+**Collection Id Abbreviation :** snre
 **Exercise Numbers:** 61-75
 **Etude Numbers:** 5 - 8
 **Notes:** Etude 6-8 in this collection differ in that they combine all the 16ths and rests rhythms from the collections within this subsection together but are not "review etudes"
 
 ### Subsection - Review Etudes
+
+**Subsection Id Abbreviation :** re2
 
 **Note:** Review Etudes are a special type of subsection that reoccures regularly throughout Section 1.1. These etudes will combine rhythmic concepts from all previous subsections/collections in order to review everything the student has learned up to this point. The number system for review etudes continuous and continues where the previous review etude number left off.
 **Etude Numbers:** 8-10
