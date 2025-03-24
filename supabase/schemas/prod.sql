@@ -1,6 +1,5 @@
 ÿþ
 
-
 SET statement_timeout = 0;
 SET lock_timeout = 0;
 SET idle_in_transaction_session_timeout = 0;
@@ -113,7 +112,7 @@ ALTER TABLE "public"."courses" OWNER TO "postgres";
 
 CREATE TABLE IF NOT EXISTS "public"."etudes" (
     "id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
-    "collection_id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
+    "collection_id" "uuid" NOT NULL,
     "number" smallint NOT NULL,
     "title" "text",
     "page_number" smallint NOT NULL,
@@ -131,7 +130,7 @@ ALTER TABLE "public"."etudes" OWNER TO "postgres";
 
 CREATE TABLE IF NOT EXISTS "public"."exercises" (
     "id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
-    "collection_id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
+    "collection_id" "uuid" NOT NULL,
     "number" smallint NOT NULL,
     "title" "text",
     "description" "text",
@@ -149,7 +148,7 @@ ALTER TABLE "public"."exercises" OWNER TO "postgres";
 CREATE TABLE IF NOT EXISTS "public"."instructions" (
     "id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
     "entry_type" "text" NOT NULL,
-    "entry_id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
+    "entry_id" "uuid" NOT NULL,
     "content" "text",
     "order" smallint,
     "created_at" timestamp with time zone DEFAULT "now"(),
@@ -162,7 +161,7 @@ ALTER TABLE "public"."instructions" OWNER TO "postgres";
 
 CREATE TABLE IF NOT EXISTS "public"."metronome_levels" (
     "id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
-    "section_id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
+    "section_id" "uuid" NOT NULL,
     "label" "text",
     "beginner_note_value" "text",
     "beginner_tempo" smallint,
@@ -181,7 +180,7 @@ ALTER TABLE "public"."metronome_levels" OWNER TO "postgres";
 CREATE TABLE IF NOT EXISTS "public"."references" (
     "id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
     "entry_type" "text" NOT NULL,
-    "entry_id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
+    "entry_id" "uuid" NOT NULL,
     "reference_type" "text" NOT NULL,
     "reference_id" "text" NOT NULL,
     "page" smallint NOT NULL,
@@ -196,8 +195,8 @@ ALTER TABLE "public"."references" OWNER TO "postgres";
 
 CREATE TABLE IF NOT EXISTS "public"."related_exercises" (
     "id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
-    "etude_id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
-    "exercise_id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
+    "etude_id" "uuid" NOT NULL,
+    "exercise_id" "uuid" NOT NULL,
     "created_at" timestamp with time zone DEFAULT "now"(),
     "local_id" "text"
 );
@@ -208,7 +207,7 @@ ALTER TABLE "public"."related_exercises" OWNER TO "postgres";
 
 CREATE TABLE IF NOT EXISTS "public"."sections" (
     "id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
-    "chapter_id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
+    "chapter_id" "uuid" NOT NULL,
     "number" "text" NOT NULL,
     "title" "text" NOT NULL,
     "page_number" smallint NOT NULL,
@@ -227,7 +226,7 @@ ALTER TABLE "public"."sections" OWNER TO "postgres";
 
 CREATE TABLE IF NOT EXISTS "public"."subsections" (
     "id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
-    "section_id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
+    "section_id" "uuid" NOT NULL,
     "title" "text" NOT NULL,
     "page_number" smallint NOT NULL,
     "description" "text",
@@ -719,3 +718,4 @@ ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON TAB
 
 
 RESET ALL;
+
