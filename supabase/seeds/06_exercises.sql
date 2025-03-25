@@ -1,4 +1,4 @@
--- Seed file for exercises table (only for collections col-whqnr and col-enqn)
+-- Seed file for exercises table
 -- File: supabase/seeds/06_exercises.sql
 
 -- Clear existing data (optional - use with caution)
