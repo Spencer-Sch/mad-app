@@ -26,6 +26,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Next.js API
 
-API endpoints are available at [http://localhost:3000/api]
+API endpoints are available at [http://localhost:3000/api](http://localhost:3000/api)
 
 See `./docs/backend/` for more info.
