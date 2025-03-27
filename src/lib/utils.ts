@@ -44,20 +44,20 @@ function isValidUUID(uuid: string) {
  * its validation check.
  */
 
-export function validateRouteUUIDs(RouteParams: RouteParams): {
+export function validateRouteUUIDs(routeParams: RouteParams): {
 	allValid: boolean
 	invalidKey: string | null
 } {
-	const segmentKeys = Object.keys(RouteParams) as RouteParamKey[]
+	const routeParamKeys = Object.keys(routeParams) as RouteParamKey[]
 
-	if (segmentKeys.length === 0) {
+	if (routeParamKeys.length === 0) {
 		return { allValid: true, invalidKey: null }
 	}
 
-	for (const key of segmentKeys) {
-		if (RouteParams[key] === undefined) continue
+	for (const key of routeParamKeys) {
+		if (routeParams[key] === undefined) continue
 
-		const isValid = isValidUUID(RouteParams[key]!)
+		const isValid = isValidUUID(routeParams[key]!)
 
 		if (!isValid) {
 			return { allValid: false, invalidKey: key }
