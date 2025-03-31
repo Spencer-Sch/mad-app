@@ -1,7 +1,7 @@
 import { SidebarTrigger } from '../ui/sidebar'
 import { sidebarNames } from '@/lib/constants'
 
-export default function DashboardHeader() {
+export default function AppHeader() {
 	const { appSidebar } = sidebarNames
 	return (
 		<header className="w-full h-[--layout-header-height] flex justify-between items-center px-4 font-bold text-3xl">

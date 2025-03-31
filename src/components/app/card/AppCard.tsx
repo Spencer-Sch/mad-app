@@ -15,7 +15,7 @@ interface Props {
 	isLoading?: boolean
 }
 
-export default function DashboardCard({
+export default function AppCard({
 	title,
 	content,
 	description,
