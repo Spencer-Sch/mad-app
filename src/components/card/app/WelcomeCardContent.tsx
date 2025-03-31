@@ -18,8 +18,8 @@ export default function WelcomeCardContent() {
 			</p>
 			<p>
 				Ready to start your drumming journey?{' '}
-				<Link href="/course" className="text-blue-500 underline">
-					Go To The Course →
+				<Link href="/app/courses" className="text-blue-500 underline">
+					View Available Courses →
 				</Link>
 			</p>
 		</CardContent>

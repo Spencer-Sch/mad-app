@@ -12,7 +12,7 @@ export default function CourseHeader() {
 			<div className="flex justify-between md:hover-device:hidden">
 				<SidebarTrigger name={courseSidebar} />
 				<Link
-					href="/dashboard"
+					href="/app"
 					className={buttonVariants({ variant: 'ghost', size: 'icon' })}
 				>
 					<RxHome />

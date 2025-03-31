@@ -6,10 +6,10 @@ export default function Home() {
 			<main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
 				<h1>Welcome to The MaD App</h1>
 				<Link
-					href={'/dashboard'}
+					href={'/app'}
 					className="px-4 py-3 bg-primary text-primary-foreground rounded-md transition-colors hover:bg-primary/90"
 				>
-					To Dashboard
+					Launch The App
 				</Link>
 			</main>
 			<footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>

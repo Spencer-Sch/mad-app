@@ -16,12 +16,12 @@ import Image from 'next/image'
 const items = [
 	{
 		title: 'Home',
-		url: '/dashboard',
+		url: '/app',
 		icon: RxHome,
 	},
 	{
 		title: 'Courses',
-		url: '/course',
+		url: '/app/courses',
 		icon: PiBooksLight,
 	},
 ]
