@@ -21,7 +21,7 @@ const items = [
 	},
 	{
 		title: 'Courses',
-		url: '/course',
+		url: '/app/courses',
 		icon: PiBooksLight,
 	},
 ]
