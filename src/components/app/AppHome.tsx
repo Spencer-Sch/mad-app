@@ -1,5 +1,5 @@
-import AppCard from '@/components/app/card/AppCard'
-import WelcomeCardContent from '@/components/app/card/WelcomeCardContent'
+import AppCard from '@/components/card/AppCard'
+import WelcomeCardContent from '@/components/card/app/WelcomeCardContent'
 
 export default function AppHome() {
 	return (
