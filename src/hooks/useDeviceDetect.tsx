@@ -21,7 +21,6 @@ export function useDeviceDetect() {
 		}
 
 		const handleResize = () => {
-			console.log('resize')
 			debouncedCheckCapability()
 		}
 
